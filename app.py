@@ -9,8 +9,8 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 
-os.getenv("BOT_TOKEN")
-os.getenv("CONTROL_CHANNEL_ID")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CONTROL_CHANNEL_ID = os.getenv("CONTROL_CHANNEL_ID")
 
 # ============================================
 # CONFIGURATION - REPLACE WITH YOUR VALUES
